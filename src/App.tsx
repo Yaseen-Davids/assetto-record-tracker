@@ -131,6 +131,7 @@ const ReplayField: FC<ReplayFieldProps> = ({ row, handleChange }) => {
       }}
     >
       <TextField
+        type="number"
         placeholder="Replay"
         name={`replay_${row.id}`}
         defaultValue={row.value}
